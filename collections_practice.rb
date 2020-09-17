@@ -36,10 +36,12 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject{|sum,array| sum + 1}
-end
-  
-  
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end 
   
   
   
