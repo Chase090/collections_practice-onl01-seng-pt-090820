@@ -30,7 +30,35 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find_all do |word| 
-    word[0] == "a"
+  array.find_all do |word|  # .find_all within the elements
+    word[0] == "a" #index 0 meant for the first letter
   end
 end
+
+def sum_array(array)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
